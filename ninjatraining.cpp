@@ -1,5 +1,11 @@
 #include<bits/stdc++.h>
 using namespace std;
+
+// if there is any line about the previous row or the previous column then 
+// that means we can easily apply space optimisation there.
+
+
+
 int func(int day , int last , vector<vector<int>> &points, vector<vector<int>> &dp){
     if(day==0){
         int maxi=0;
