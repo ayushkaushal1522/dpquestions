@@ -70,6 +70,10 @@ int main(){
 
     //for the tabulation code the time complexity is given by O(n*m)
     //and the space complexity is given by O(n*m) as well.
+
+
+    // more optimised approach then this is only the combination way by using the formula of permutation and combination which is ncr.
+    
     
 
 
